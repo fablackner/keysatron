@@ -64,11 +64,12 @@ Wiring between Nucleo `CN4` and Keysatron `J1`:
 
 ## Repository Contents
 
-- `stm32UsbInOut.kicad_pcb` – KiCad PCB layout (4-layer board)
-- `stm32UsbInOut.sch` – KiCad schematic
-- `stm32UsbInOut.csv` – Bill of Materials (BOM) with LCSC component part numbers
-- `assembly/` – Pick-and-place component position files (`all-pos.csv`) and BOM for automated assembly
-- `gerber/` – Gerber fabrication files and drill files ready for PCB manufacturing
+- `keysatron.kicad_pcb` – KiCad PCB layout (4-layer board)
+- `keysatron.sch` – KiCad schematic
+- `keysatron.pro` – KiCad project configuration
+- `keysatron.csv` – Bill of Materials (BOM) with LCSC component part numbers
+- `assembly/` – Pick-and-place component position files (`keysatron-all-pos.csv`) and BOM (`keysatron_bom.csv`) for automated assembly
+- `gerber/` – Gerber fabrication files and drill files ready for PCB manufacturing (`keysatron_gerber.zip`)
 
 ---
 
